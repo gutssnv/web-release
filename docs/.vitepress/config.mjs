@@ -1,6 +1,7 @@
 export default {
   title: "Hound Releases",
   description: "Another release rom from standalone dev",
+  base: "/web-release/",
   themeConfig: {
     nav: [
       { text: "ROM", link: "/releases/rom/" },
