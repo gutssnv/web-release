@@ -1,6 +1,7 @@
 ---
 title: crDroid
 description: crDroid releases by Hound Project
+pageClass: crdroid
 ---
 
 # crDroid

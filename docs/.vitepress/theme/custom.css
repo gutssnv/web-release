@@ -112,3 +112,49 @@ tr:hover {
 .vp-doc table {
   animation: fadeInUp 1s ease;
 }
+
+/* Banner base */
+.vp-doc h1::before {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 160px;
+  border-radius: 16px;
+  margin-bottom: 24px;
+  background: linear-gradient(135deg, #1a1a1a, #404040, #1a1a1a);
+  mask-image: linear-gradient(to bottom, rgba(0,0,0,1) 60%, rgba(0,0,0,0) 100%);
+  -webkit-mask-image: linear-gradient(to bottom, rgba(0,0,0,1) 60%, rgba(0,0,0,0) 100%);
+  animation: fadeInDown 0.8s ease;
+}
+
+/* PixelOS banner */
+.pixelos .vp-doc h1::before {
+  background-image: url('/web-release/banners/pixelos.jpg');
+  background-size: cover;
+  background-position: center;
+  background-color: unset;
+}
+
+/* Lunaris banner */
+.lunaris .vp-doc h1::before {
+  background-image: url('/web-release/banners/lunaris.jpg');
+  background-size: cover;
+  background-position: center;
+  background-color: unset;
+}
+
+/* crDroid banner */
+.crdroid .vp-doc h1::before {
+  background-image: url('/web-release/banners/crdroid.jpg');
+  background-size: cover;
+  background-position: center;
+  background-color: unset;
+}
+
+/* Releases banner */
+.releases .vp-doc h1::before {
+  background-image: url('/web-release/banners/release.jpg');
+  background-size: cover;
+  background-position: center;
+  background-color: unset;
+}

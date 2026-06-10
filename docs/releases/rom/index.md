@@ -1,6 +1,7 @@
 ---
 title: ROM Releases
 description: All ROM releases from Hound Project
+pageClass: releases
 ---
 
 # ROM Releases

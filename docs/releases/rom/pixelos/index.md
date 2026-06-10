@@ -1,6 +1,7 @@
 ---
 title: PixelOS
 description: PixelOS releases by Hound Project
+pageClass: pixelos
 ---
 
 # PixelOS

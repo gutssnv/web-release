@@ -1,6 +1,7 @@
 ---
 title: LunarisAOSP
 description: LunarisAOSP releases by Hound Project
+pageClass: lunaris
 ---
 
 # LunarisAOSP
