@@ -40,3 +40,75 @@
   from { opacity: 0; transform: translateY(20px); }
   to { opacity: 1; transform: translateY(0); }
 }
+
+/* Sidebar links hover */
+.VPSidebarItem a {
+  transition: color 0.3s ease;
+}
+
+.VPSidebarItem a:hover {
+  color: #e0e0e0;
+}
+
+/* Table styling */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  animation: fadeInUp 0.8s ease;
+}
+
+th {
+  background: rgba(255,255,255,0.05);
+  color: #e0e0e0;
+}
+
+tr {
+  transition: background 0.2s ease;
+}
+
+tr:hover {
+  background: rgba(255,255,255,0.05);
+}
+
+/* Page content animation */
+.VPDoc {
+  animation: fadeInUp 0.8s ease;
+}
+
+/* Nav links */
+.VPNavBarMenuLink {
+  transition: color 0.3s ease;
+}
+
+.VPNavBarMenuLink:hover {
+  color: #e0e0e0 !important;
+}
+
+/* Heading color */
+.vp-doc h1, .vp-doc h2 {
+  background: linear-gradient(135deg, #ffffff, #a0a0a0);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Heading animation */
+.vp-doc h1 {
+  animation: fadeInDown 0.8s ease;
+}
+
+.vp-doc h2 {
+  animation: fadeInDown 1s ease;
+}
+
+.vp-doc h3 {
+  animation: fadeInDown 1.2s ease;
+}
+
+/* Paragraph & table animation */
+.vp-doc p {
+  animation: fadeInUp 0.9s ease;
+}
+
+.vp-doc table {
+  animation: fadeInUp 1s ease;
+}
