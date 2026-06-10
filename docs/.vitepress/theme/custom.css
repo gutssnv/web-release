@@ -113,12 +113,12 @@ tr:hover {
   animation: fadeInUp 1s ease;
 }
 
-/* Banner base */
+/* Banner Base */
 .vp-doc h1::before {
   content: '';
   display: block;
   width: 100%;
-  height: 160px;
+  height: 220px;
   border-radius: 16px;
   margin-bottom: 24px;
   background: linear-gradient(135deg, #1a1a1a, #404040, #1a1a1a);
