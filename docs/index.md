@@ -1,25 +1,20 @@
 ---
-# https://vitepress.dev/reference/default-theme-home-page
 layout: home
 
 hero:
   name: "Hound Releases"
   text: "Another release rom from standalone dev"
-  tagline: My great project tagline
+  tagline: Unofficial ROM builds for Infinix Hot 50 4G
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
-    - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: Browse ROMs
+      link: /releases/rom/
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: PixelOS
+    details: AOSP based ROM with Google apps and all Pixel goodies.
+  - title: LunarisAOSP
+    details: AOSP-based ROM packed with cherry-picked customizations from the best custom ROMs.
+  - title: crDroid
+    details: Designed to improve performance, reliability and customization of your phone.
 ---
-
